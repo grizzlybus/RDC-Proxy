@@ -19,5 +19,6 @@ As an example, on my Mac with Remote Desktop Connection installed in the Applica
 cd /Applications/Remote\ Desktop\ Connection.app/Contents/MacOS
 mv Remote\ Desktop\ Connection Remote\ Desktop\ Connection.old
 cp ~/rdc-proxy.sh /usr/local/bin
+chmod 755 /usr/local/bin/rdc-proxy.sh
 ln -s /usr/local/bin/rdc-proxy.sh Remote\ Desktop\ Connection
 ```
